@@ -16,8 +16,8 @@
 
    ![Logic functions](images/comparator_min.png)
 
-   Greater than: (B1*nA1)+(B0*nA1*nA0)+(B1*B0*nA0)
-   Less than:  (B1*A0)+(A1*A0*nB0)+(A1*nB1)
+Greater than: (B1*nA1)+(B0*nA1*nA0)+(B1*B0*nA0)
+Less than:  (B1*A0)+(A1*A0*nB0)+(A1*nB1)
 
 ### 4-bit comparator
 
