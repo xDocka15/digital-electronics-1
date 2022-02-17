@@ -6,11 +6,11 @@
 
    Greater than:
 
-   ![K-maps](images/kmap_empty.png)
+   ![K-maps](images/k_map_Bgreater.png)
 
    Less than:
 
-   ![K-maps](images/kmap_empty.png)
+   ![K-maps](images/k_map_Blesser.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
@@ -50,7 +50,7 @@ Less than:  (B1*A0)+(A1*A0*nB0)+(A1*nB1)
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![your figure](images/myfigure.png)
 
 3. Link to your public EDA Playground example:
 
