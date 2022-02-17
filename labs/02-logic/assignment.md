@@ -55,4 +55,4 @@ Less than:  (B1*A0)+(A1*A0*nB0)+(A1*nB1)
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [https://www.edaplayground.com/...](https://www.edaplayground.com/x/nGGq)
