@@ -1,4 +1,4 @@
-# Lab 2: YOUR_FIRSTNAME LASTNAME
+# Lab 2: Tomáš Dočkal
 
 ### 2-bit comparator
 
