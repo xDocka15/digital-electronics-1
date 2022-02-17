@@ -14,7 +14,7 @@
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+   ![Logic functions](images/equations.png)
 
 Greater than: (B1*nA1)+(B0*nA1*nA0)+(B1*B0*nA0)
 Less than:  (B1*A0)+(A1*A0*nB0)+(A1*nB1)
