@@ -16,6 +16,9 @@
 
    ![Logic functions](images/comparator_min.png)
 
+   Greater than: (B1*nA1)+(B0*nA1*nA0)+(B1*B0*nA0)
+   Less than:  (B1*A0)+(A1*A0*nB0)+(A1*nB1)
+
 ### 4-bit comparator
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
