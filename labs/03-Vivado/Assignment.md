@@ -5,20 +5,16 @@
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-   entity mux_3bit_4to1 is
-    port(
-        b_i         : in  std_logic_vector(4 - 1 downto 0);
-        a_i         : in  std_logic_vector(4 - 1 downto 0);
+   architecture Behavioral of multiplexer is
+begin
 
+    with sel_i select
+    f_o <= a_i when "00",  
+           b_i when "01",
+           c_i when "10",
+           d_i when others; -- All other combinations
 
-        -- COMPLETE THE ENTITY DECLARATION
-
-
-        B_less_A_o    : out std_logic;  -- B is less than A
-        B_equals_A_o  : out std_logic;
-        B_greater_A_o : out std_logic
-    );
-end entity mux_3bit_4to1;
+end architecture Behavioral;
 ```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
