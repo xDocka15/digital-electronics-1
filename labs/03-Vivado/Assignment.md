@@ -5,58 +5,11 @@
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-architecture Behavioral of tb_multiplexer is
-
-    -- Local signals
-    signal s_a           : std_logic_vector(3 - 1 downto 0);
-    signal s_b           : std_logic_vector(3 - 1 downto 0);
-    signal s_c           : std_logic_vector(3 - 1 downto 0);
-    signal s_d           : std_logic_vector(3 - 1 downto 0);
-    signal s_sel         : std_logic_vector(2 - 1 downto 0);
-    signal s_f           : std_logic_vector(3 - 1 downto 0);
-
-
-begin
-    -- Connecting testbench signals with comparator_4bit
-    -- entity (Unit Under Test)
-    uut_comparator_4bit : entity work.multiplexer
-        port map(
-            a_i           => s_a,
-            b_i           => s_b,
-            c_i           => s_c,
-            d_i           => s_d,
-            sel_i         => s_sel,
-            f_o 		  => s_f
-        );
-
-    --------------------------------------------------------
-    -- Data generation process
-    --------------------------------------------------------
-    p_stimulus : process
-    begin
-    
-    report "Stimulus process started" severity note;
-        
-	s_a <= "001"; 
-    s_b <= "011";
-    s_c <= "010";
-    s_d <= "101";
-    
-    s_sel <= "00";
-	wait for 20 ns;
-    s_sel <= "01";
-	wait for 20 ns;
-    s_sel <= "10";
-	wait for 20 ns;
-    s_sel <= "11";
-	wait for 20 ns;
-
-	report "Stimulus process end" severity note;
-    wait;
-
-    end process p_stimulus;
-
-end architecture Behavioral;
+    with sel_i select
+    f_o <= a_i when "00",  
+           b_i when "01",
+           c_i when "10",
+           d_i when others;
 ```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
