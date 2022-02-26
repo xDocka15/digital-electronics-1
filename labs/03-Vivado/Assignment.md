@@ -5,7 +5,7 @@
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-   architecture Behavioral of multiplexer is
+architecture Behavioral of multiplexer is
 begin
 
     with sel_i select
