@@ -234,6 +234,7 @@ When you finish working, always synchronize the contents of your working folder 
 
 4. Digilent. [General .xdc file for the Nexys A7-50T](https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-50T-Master.xdc)
 
+´´´vhd1
 ----------------------------------------------------------------------------------
 -- Company: 
 -- Engineer: 
@@ -315,7 +316,9 @@ LED(5) <= '1' when (SW > "1001") else '0';
 LED(6) <= '1' when (SW(0) = '1') else '0';
 
 -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
-LED(7) <= '0' when (SW(0)xorSW(1)=SW(2)xor(3)) esle '1' 
+LED(7) <= '0' when ((SW(0) xor SW(1)) = (SW(2) xor SW(3))) else '1'; 
 
 end Behavioral;
 
+
+´´´
