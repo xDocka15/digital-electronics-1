@@ -321,4 +321,5 @@ LED(7) <= '0' when ((SW(0) xor SW(1)) = (SW(2) xor SW(3))) else '1';
 end Behavioral;
 
 
+
 ´´´
