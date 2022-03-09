@@ -108,7 +108,7 @@
     with hex_i select
     LED(7) <= 	'1' when "0001"; 
     		'1' when "0010";
-		'1' when "0100";
-		'1' when "1000";
-		'0' when others;
+			'1' when "0100";
+			'1' when "1000";
+			'0' when others;
    ```
