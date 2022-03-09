@@ -70,7 +70,7 @@ In this laboratory exercise, you will study the differences between a statically
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 |  |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 |  |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | invert |
    | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 |  |
 
 <a name="part1"></a>
