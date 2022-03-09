@@ -106,9 +106,9 @@
 
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
     with hex_i select
-    LED(7) <= '1' when "0001"; 
-    	'1' when "0010";
-	'1' when "0100";
-	'1' when "1000";
-	'0' when others;
+    LED(7) <= 	'1' when "0001"; 
+    		'1' when "0010";
+		'1' when "0100";
+		'1' when "1000";
+		'0' when others;
    ```
