@@ -1,4 +1,4 @@
-# Lab 5: DOčkal Tomáš
+# Lab 5: Dočkal Tomáš
 
 ### Flip-flops
 
