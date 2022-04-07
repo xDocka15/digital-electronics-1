@@ -9,7 +9,7 @@
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-    --------------------------------------------------------
+        --------------------------------------------------------
     -- p_traffic_fsm:
     -- The sequential process with synchronous reset and 
     -- clock_enable entirely controls the s_state signal by 
@@ -42,9 +42,55 @@
                         end if;
 
                     when WEST_GO =>
-                        -- WRITE OTHER STATES HERE
-
-
+                        -- Count up to c_DELAY_1SEC
+                        if (s_cnt < c_DELAY_8SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            -- Move to the next state
+                            s_state <= WEST_WAIT;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                    when WEST_WAIT  =>
+                        -- Count up to c_DELAY_1SEC
+                        if (s_cnt < c_DELAY_2SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            -- Move to the next state
+                            s_state <= STOP2;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                    when STOP2  =>
+                        -- Count up to c_DELAY_1SEC
+                        if (s_cnt < c_DELAY_1SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            -- Move to the next state
+                            s_state <= SOUTH_GO;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                    when SOUTH_GO =>
+                        -- Count up to c_DELAY_1SEC
+                        if (s_cnt < c_DELAY_8SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            -- Move to the next state
+                            s_state <= SOUTH_WAIT;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                    when SOUTH_WAIT =>
+                        -- Count up to c_DELAY_1SEC
+                        if (s_cnt < c_DELAY_2SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            -- Move to the next state
+                            s_state <= STOP1;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
                     -- It is a good programming practice to use the 
                     -- OTHERS clause, even if all CASE choices have 
                     -- been made.
