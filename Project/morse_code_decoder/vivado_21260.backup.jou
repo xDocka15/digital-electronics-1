@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 17 18:03:21 2022
+# Process ID: 21260
+# Current directory: D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16484 D:\prednasky a cviceni 4\DE1\github\digital-electronics-1\labs\Project\morse_code_decoder\morse_code_decoder.xpr
+# Log file: D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder/vivado.log
+# Journal file: D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder/morse_code_decoder.xpr}
+update_compile_order -fileset sources_1

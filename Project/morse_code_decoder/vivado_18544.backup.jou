@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 17 20:32:48 2022
+# Process ID: 18544
+# Current directory: D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20176 D:\prednasky a cviceni 4\DE1\github\digital-electronics-1\labs\Project\morse_code_decoder\morse_code_decoder.xpr
+# Log file: D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder/vivado.log
+# Journal file: D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder/morse_code_decoder.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/06-counter/tb_clock_enable.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/06-counter/tb_clock_enable.vhd}}
+export_ip_user_files -of_objects  [get_files {{D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/06-counter/tb_cnt_up_down.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/06-counter/tb_cnt_up_down.vhd}}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder/morse_code_decoder.srcs/sim_1/new/tb_cnt_up_down.vhd} {D:/prednasky a cviceni 4/DE1/github/digital-electronics-1/labs/Project/morse_code_decoder/morse_code_decoder.srcs/sim_1/new/tb_clock_enable.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_decoder.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
