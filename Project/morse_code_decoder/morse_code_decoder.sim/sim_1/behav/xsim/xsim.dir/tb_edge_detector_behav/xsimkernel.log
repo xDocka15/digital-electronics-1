@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_edge_detector_behav/xsimk.exe -simmode gui -wdb tb_edge_detector_behav.wdb -simrunnum 0 -socket 54732
-Design successfully loaded
-Design Loading Memory Usage: 6400 KB (Peak: 6400 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 6952 KB (Peak: 6952 KB)
-Simulation CPU Usage: 15 ms

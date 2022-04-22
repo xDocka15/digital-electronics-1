@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 22 17:36:39 2022
+# Process ID: 12276
+# Current directory: C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13344 C:\Users\dodg\Desktop\4.sem\DE1\digital-electronics-1\230240\project_1\project_1.xpr
+# Log file: C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/project_1/vivado.log
+# Journal file: C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/Project/morse_code_decoder/tb_top_behav.wcfg
+source tb_top.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+relaunch_sim
+refresh_design
+refresh_design
+close [ open C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/project_1/project_1.srcs/sources_1/new/display_control.vhd w ]
+add_files C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/project_1/project_1.srcs/sources_1/new/display_control.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/digital-electronics-1/230240/Project/morse_code_decoder/tb_top_behav.wcfg}
+close_sim

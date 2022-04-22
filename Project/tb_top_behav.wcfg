@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="984900000fs"></ZoomStartTime>
+      <ZoomEndTime time="10884900001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_top/s_clk_100MHz" type="logic">
+      <obj_property name="ElementShortName">s_clk_100MHz</obj_property>
+      <obj_property name="ObjectShortName">s_clk_100MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/s_data" type="logic">
+      <obj_property name="ElementShortName">s_data</obj_property>
+      <obj_property name="ObjectShortName">s_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/c_CNT_WIDTH" type="other">
+      <obj_property name="ElementShortName">c_CNT_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">c_CNT_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/c_CLK_100MHZ_PERIOD" type="other">
+      <obj_property name="ElementShortName">c_CLK_100MHZ_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">c_CLK_100MHZ_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/uut_ce/fall_o" type="logic">
+      <obj_property name="ElementShortName">fall_o</obj_property>
+      <obj_property name="ObjectShortName">fall_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/uut_ce/ris_o" type="logic">
+      <obj_property name="ElementShortName">ris_o</obj_property>
+      <obj_property name="ObjectShortName">ris_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/decod/dcd_o" type="logic">
+      <obj_property name="ElementShortName">dcd_o</obj_property>
+      <obj_property name="ObjectShortName">dcd_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/decod/cnt_i" type="array">
+      <obj_property name="ElementShortName">cnt_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/decod/char_o" type="array">
+      <obj_property name="ElementShortName">char_o[2:0]</obj_property>
+      <obj_property name="ObjectShortName">char_o[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/clk_en0/ce_o" type="logic">
+      <obj_property name="ElementShortName">ce_o</obj_property>
+      <obj_property name="ObjectShortName">ce_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/shift_register/q" type="array">
+      <obj_property name="ElementShortName">q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">q[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/bin_cnt0/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/hex_7seg/seg_o" type="array">
+      <obj_property name="ElementShortName">seg_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_o[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut_top/hex_7seg/over_flow_i" type="logic">
+      <obj_property name="ElementShortName">over_flow_i</obj_property>
+      <obj_property name="ObjectShortName">over_flow_i</obj_property>
+   </wvobject>
+</wave_config>
