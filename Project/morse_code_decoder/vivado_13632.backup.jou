@@ -1,0 +1,179 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 23 18:06:05 2022
+# Process ID: 13632
+# Current directory: C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12808 C:\Users\dodg\Desktop\4.sem\DE1\Project\morse_code_decoder\project_1.xpr
+# Log file: C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/vivado.log
+# Journal file: C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+launch_simulation
+open_wave_config C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg
+source tb_top.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+refresh_design
+refresh_design
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+refresh_design
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+refresh_design
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+set_property -name {xsim.simulate.runtime} -value {15ms} -objects [get_filesets sim_1]
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg
+source tb_top.tcl
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+refresh_design
+relaunch_sim
+refresh_design
+refresh_design
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+refresh_design
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+add_bp {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} 50
+remove_bps -file {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} -line 50
+add_bp {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} 51
+relaunch_sim
+add_bp {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} 52
+remove_bps -file {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} -line 52
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+remove_bps -file {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} -line 51
+add_bp {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} 52
+remove_bps -file {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} -line 52
+add_bp {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} 70
+relaunch_sim
+step
+remove_bps -file {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/project_1.srcs/sources_1/new/hex_7seg.vhd} -line 70
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+refresh_design
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/Users/dodg/Desktop/4.sem/DE1/Project/morse_code_decoder/tb_top_behav.wcfg}
+close_sim
