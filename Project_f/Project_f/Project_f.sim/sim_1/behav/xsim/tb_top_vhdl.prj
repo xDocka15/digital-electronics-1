@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Project_f.srcs/sources_1/new/clock_enable.vhd" \
+"../../../../Project_f.srcs/sources_1/new/counter.vhd" \
+"../../../../Project_f.srcs/sources_1/new/d_ff_rst.vhd" \
+"../../../../Project_f.srcs/sources_1/new/d_ff_rst_7bit.vhd" \
+"../../../../Project_f.srcs/sources_1/new/decoder.vhd" \
+"../../../../Project_f.srcs/sources_1/new/display_control.vhd" \
+"../../../../Project_f.srcs/sources_1/new/edge_detector.vhd" \
+"../../../../Project_f.srcs/sources_1/new/hex_7seg.vhd" \
+"../../../../Project_f.srcs/sources_1/new/shift_register.vhd" \
+"../../../../Project_f.srcs/sources_1/new/shift_register_7bit.vhd" \
+"../../../../Project_f.srcs/sources_1/new/top.vhd" \
+"../../../../Project_f.srcs/sim_1/new/tb_top.vhd" \
+
+# Do not sort compile order
+nosort
